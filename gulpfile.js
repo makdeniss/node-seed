@@ -6,7 +6,7 @@ var jsdoc = require('gulp-jsdoc3');
 var sequence = require('run-sequence');
 var babel = require('gulp-babel');
 var isparta = require('isparta');
-var babelRegister = require('babel/register');
+var babelRegister = require('babel-core/register');
 
 var GULP_FILE = ['gulpfile.js'];
 var SRC_FILES = ['src/**/*.js'];
